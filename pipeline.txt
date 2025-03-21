@@ -1,0 +1,11 @@
+Full Pipeline Overview:
+Image Masking:
+Extract the roof area from aerial images using polygon masks.
+Focus the analysis on roof regions and discard irrelevant areas.
+Point Cloud Extraction:
+Use spatial alignment techniques (GPS coordinates) to map the 2D roof regions to 3D point cloud data.
+Extract only the roof-related points from the 3D point cloud.
+3D Reconstruction:
+Process the extracted points to remove noise and refine the data.
+Use surface reconstruction methods (like triangulation or Poisson reconstruction) to build a 3D model of the roof.
+Optionally, apply texture or refine the model to enhance realism and accuracy.
